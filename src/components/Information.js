@@ -1,7 +1,7 @@
 import React from 'react';
 
 const rupees = (data) => {
-    if(data == 'NA'){
+    if(data === 'NA'){
            return "--";
     }
 
@@ -10,7 +10,7 @@ const rupees = (data) => {
 }
 
 const percent = (data) => {
-   if(data == 'NA'){
+   if(data === 'NA'){
        return "--";
    }
 
